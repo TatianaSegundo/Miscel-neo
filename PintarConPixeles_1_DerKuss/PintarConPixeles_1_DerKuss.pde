@@ -1,3 +1,4 @@
+//Práctica de tutorial de Daniel Shiffman
 PImage derKuss;
 
 void setup() {

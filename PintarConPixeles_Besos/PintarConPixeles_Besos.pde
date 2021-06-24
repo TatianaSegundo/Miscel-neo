@@ -51,7 +51,7 @@ void draw() {
       fill(c);
       rect(x, y, random(1, 5.5), random(1, 5.5));
     }
-    textFont(fuente2);
+    textFont(fuente3);
     textSize(25);
     fill(255);
     text("El beso - Gustav Klimt", width/2, height-70);
@@ -71,7 +71,7 @@ void draw() {
       //ellipse(x, y, random(1, 8), random(1, 8));
       rect(x, y, random(1, 4), random(1, 8));
     }
-    textFont(fuente2);
+    textFont(fuente3);
     textSize(25);
     fill(255);
     text("En la cama: El beso - Henri Toulouse-Lautrec", width/2, height-70);
@@ -87,7 +87,7 @@ void draw() {
       fill(c);
       rect(x, y, random(1, 4), random(1, 4));
     }
-    textFont(fuente2);
+    textFont(fuente3);
     textSize(25);
     fill(255);
     text("Psique reanimada por el beso del amor - Antonio Canova", width/2, height-70);
@@ -104,7 +104,7 @@ void draw() {
       //rect(x, y, random(1, 8), random(1, 8));
       ellipse(x, y, random(1, 8), random(1, 8));
     }
-    textFont(fuente2);
+    textFont(fuente3);
     textSize(25);
     fill(255);
     text("Pigmalión y Galatea - Jean-Léon Gérôme", width/2, height-70);

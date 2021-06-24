@@ -36,7 +36,7 @@ void draw() {
     fill(255);
     textFont(fuente2);
     textSize(20);
-    text("Hola! Estas son las instrucciones para quien esté viendo esto: \n Si presionas las teclas 'a', 'b', 'c' o 'd', podrás conocer algunas de mis obras favoritas, \n las cuales tienen como inspiración común, el beso. \n Espero que las disfrutes", width/2, height/2);
+    text("¡Hola!\n Estas son las instrucciones para quien esté viendo esto: \n Si presionas las teclas 'a', 'b', 'c' o 'd', podrás conocer algunas de mis obras favoritas, \n las cuales tienen como inspiración común, el beso. \n Espero que las disfrutes", width/2, height/2);
   } else if (millis() >10000 && millis()<11000) {
     background(0);
   }
@@ -49,7 +49,7 @@ void draw() {
       color c = derKuss.get(int(x), int(y));
       noStroke();
       fill(c);
-      rect(x, y, random(1, 8), random(1, 8));
+      rect(x, y, random(1, 5.5), random(1, 5.5));
       //fill(255);
       //text("El beso - Gustav Klimt",width/2,height-70);
     }

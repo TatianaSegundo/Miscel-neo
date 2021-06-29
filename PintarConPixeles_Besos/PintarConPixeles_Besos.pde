@@ -30,7 +30,7 @@ void draw() {
     text("Los besos en el arte", width/2, height/2);
   } 
 
-  if (millis()>=5500 && millis() <10000) {
+  if (millis()>5500 && millis() <10000) {
 
     fill(255);
     textFont(fuente2);
